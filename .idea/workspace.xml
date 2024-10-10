@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff08e30d-6496-494f-9011-aa53f0fef714" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GsonExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JsonBExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JsonPExemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Temario01 e 02/Boletin01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Boletin01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Equipos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../carpetaPath/copiame.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../carpetaPath/creadoConPath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../carpetaPath/listoparacopiar.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../destino/copiame.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../destino/creadoConPath.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../destino/listoparacopiar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prueba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prueba2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pruebaFiles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/EJ1_Copia_de_Archivos_con_Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej2_Estadísticas_de_un_Archivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej3_Editor_de_Texto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej4_Lectura_de_Teclado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/Clasificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/Datos/FileBufferedEquipos.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/Datos/ObjectStreamEquipos.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/Ej6_Xestion_de_Equipo_de_Baloncesto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/Equipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/ClasificacionFileDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/EquipoDaoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/EquipoFileBufferedStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/EquipoObjectStreamDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/EquipoOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Boletin01/Ej6_EquipoDeBaloncesto/PatronDao/EquipoRandomAccesFileDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Data.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_01_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_01_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_01_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_02_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_02_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_04_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_04_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_04_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_01/Ej01_04_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_02/Ej1_Path_Paths_Files.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_02/Ej2_Creación_de_Directorios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_02/Ej3_Contenido_de_un_Directorio_con_List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/Ejercicios_02/Ej4_Listar_y_Copiar_Archivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/aaPruebas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/patronDao/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/patronDao/AlumnoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/patronDao/Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/resources/ColeccionPersonas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/resources/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/resources/coleccionPersonas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/resources/persona.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2nEo3StPNxrvHCB77mdwAcupqPI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GsonExemplo.executor": "Debug",
+    "Application.JsonBExemplo.executor": "Run",
+    "Application.JsonPExemplo.executor": "Run",
+    "Application.RunJSScript (2).executor": "Run",
+    "Application.RunJSScript.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/a23sergiogr/Desktop/AD/Gson/Gson/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.JsonBExemplo">
+    <configuration name="GsonExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GsonExemplo" />
+      <module name="Gson" />
+      <option name="PROGRAM_PARAMETERS" value="poeta.js" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonBExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JsonBExemplo" />
+      <module name="Gson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonPExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.JsonPExemplo" />
+      <module name="Gson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JsonBExemplo" />
+        <item itemvalue="Application.JsonPExemplo" />
+        <item itemvalue="Application.GsonExemplo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff08e30d-6496-494f-9011-aa53f0fef714" name="Changes" comment="" />
+      <created>1728547398206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728547398206</updated>
+    </task>
+    <servers />
+  </component>
+</project>
