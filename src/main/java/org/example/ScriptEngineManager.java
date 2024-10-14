@@ -5,18 +5,17 @@ import java.io.IOException;
 import java.util.List;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineFactory;
-import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import static java.lang.System.*;
 
-public class GsonExemplo {
+public class ScriptEngineManager {
     public static void main(String[] args) {
         if (args.length != 1) {
             err.println("uso: java RunJSScript scriptEnJS");
             return;
         }
 
-        ScriptEngineManager manager = new ScriptEngineManager(); // Inicio el API de Scripting
+        javax.script.ScriptEngineManager manager = new javax.script.ScriptEngineManager(); // Inicio el API de Scripting
 
         List<ScriptEngineFactory> lista = manager.getEngineFactories();
 
