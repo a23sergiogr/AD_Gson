@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff08e30d-6496-494f-9011-aa53f0fef714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GsonExamenAJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GsonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/accesoADatos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex1BasicSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex2SerialiceObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex3SerialiceLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex4SerializeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex5SerializeArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GsonExemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScriptEngineManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Ej3_GsonExamen.executor": "Run",
+    "Application.Ex1BasicSerialization.executor": "Run",
+    "Application.Ex2SerialiceObjects.executor": "Run",
+    "Application.Ex3SerialiceLists.executor": "Run",
+    "Application.Ex4SerializeNumbers.executor": "Run",
+    "Application.Ex5SerializeArray.executor": "Run",
     "Application.GsonExamenAJson.executor": "Run",
     "Application.GsonExample.executor": "Run",
     "Application.GsonExemplo.executor": "Debug",
@@ -55,9 +60,9 @@
     "onboarding.tips.debug.path": "C:/Users/a23sergiogr/Desktop/AD/Gson/Gson/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GsonExamenAJson">
-    <configuration name="Ej3_GsonExamen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Ej3_GsonExamen" />
+  <component name="RunManager" selected="Application.Ex5SerializeArray">
+    <configuration name="Ex1BasicSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex1BasicSerialization" />
       <module name="Gson" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GsonExamenAJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GsonExamenAJson" />
+    <configuration name="Ex2SerialiceObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex2SerialiceObjects" />
       <module name="Gson" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GsonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GsonExample" />
+    <configuration name="Ex3SerialiceLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex3SerialiceLists" />
       <module name="Gson" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonBExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JsonBExemplo" />
+    <configuration name="Ex4SerializeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex4SerializeNumbers" />
       <module name="Gson" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonPExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JsonPExemplo" />
+    <configuration name="Ex5SerializeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ex5SerializeArray" />
       <module name="Gson" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GsonExamenAJson" />
-        <item itemvalue="Application.GsonExample" />
-        <item itemvalue="Application.Ej3_GsonExamen" />
-        <item itemvalue="Application.JsonBExemplo" />
-        <item itemvalue="Application.JsonPExemplo" />
+        <item itemvalue="Application.Ex5SerializeArray" />
+        <item itemvalue="Application.Ex4SerializeNumbers" />
+        <item itemvalue="Application.Ex3SerialiceLists" />
+        <item itemvalue="Application.Ex2SerialiceObjects" />
+        <item itemvalue="Application.Ex1BasicSerialization" />
       </list>
     </recent_temporary>
   </component>
