@@ -1,0 +1,40 @@
+{
+  "predConcello": {
+    "idConcello": 15078,
+    "listaPredDiaConcello": [
+      {
+        "ceo": {
+          "manha": 108,
+          "noite": 208,
+          "tarde": 107
+        },
+        "dataPredicion": "2023-10-29T00:00:00",
+        "nivelAviso": 0,
+        "pchoiva": {
+          "manha": 95,
+          "noite": 55,
+          "tarde": 75
+        },
+        "tMax": 14,
+        "tMin": 11,
+        "tmaxFranxa": {
+          "manha": 12,
+          "noite": 11,
+          "tarde": 14
+        },
+        "tminFranxa": {
+          "manha": 11,
+          "noite": 10,
+          "tarde": 11
+        },
+        "uvMax": -9999,
+        "vento": {
+          "manha": 306,
+          "noite": 300,
+          "tarde": 300
+        }
+      }
+    ],
+    "nome": "Santiago de Compostela"
+  }
+}

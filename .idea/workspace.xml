@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff08e30d-6496-494f-9011-aa53f0fef714" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex1BasicSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex2SerialiceObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex3SerialiceLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex4SerializeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ex5SerializeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/Concello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/ConcelloId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/EstadoMeteoroloxico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/MeteogalizaTypeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/Prediccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/PrediccionDia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/TipoVento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/VariableFranxa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/meteogaliza/VariableMeteoroloxica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/meteogaliza.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,6 +57,7 @@
     "Application.GsonExemplo.executor": "Debug",
     "Application.JsonBExemplo.executor": "Run",
     "Application.JsonPExemplo.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.RunJSScript (2).executor": "Run",
     "Application.RunJSScript.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,20 +68,7 @@
     "onboarding.tips.debug.path": "C:/Users/a23sergiogr/Desktop/AD/Gson/Gson/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex5SerializeArray">
-    <configuration name="Ex1BasicSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Ex1BasicSerialization" />
-      <module name="Gson" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ex2SerialiceObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Ex2SerialiceObjects" />
       <module name="Gson" />
@@ -126,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="meteogaliza.Main" />
+      <module name="Gson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meteogaliza.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex5SerializeArray" />
         <item itemvalue="Application.Ex4SerializeNumbers" />
         <item itemvalue="Application.Ex3SerialiceLists" />
         <item itemvalue="Application.Ex2SerialiceObjects" />
-        <item itemvalue="Application.Ex1BasicSerialization" />
       </list>
     </recent_temporary>
   </component>
