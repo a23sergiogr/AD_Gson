@@ -1,6 +1,6 @@
-package meteogaliza;
+package meteogaliza.enums;
 
-public enum TipoVento {
+public enum EstadoVento implements EstadoUtils{
     NON_DISPONIBLE(-9999, "Non dispoñible"),
     CALMA(299, "Calma"),
     VENTO_VARIABLE(300, "Vento variable"),
@@ -40,7 +40,7 @@ public enum TipoVento {
     private final int codigo;
     private final String nome;
 
-    TipoVento(int codigo, String nome) {
+    EstadoVento(int codigo, String nome) {
         this.codigo = codigo;
         this.nome = nome;
     }
@@ -51,24 +51,6 @@ public enum TipoVento {
 
     public String getNome() {
         return nome;
-    }
-
-    public static String obterNomePorCodigo(int codigo) {
-        for (TipoVento vento : TipoVento.values()) {
-            if (vento.codigo == codigo) {
-                return vento.nome;
-            }
-        }
-        throw new IllegalArgumentException("Código non válido: " + codigo);
-    }
-
-    public static int obterCodigoPorNome(String nome) {
-        for (TipoVento vento : TipoVento.values()) {
-            if (vento.nome.equalsIgnoreCase(nome)) {
-                return vento.codigo;
-            }
-        }
-        throw new IllegalArgumentException("Nome non válido: " + nome);
     }
 
     public String getIntensidadeVento() {

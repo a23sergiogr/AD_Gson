@@ -1,6 +1,6 @@
-package meteogaliza;
+package meteogaliza.enums;
 
-public enum ConcelloId {
+public enum ConcelloId implements EstadoUtils {
     ABEGONDO(15001, "Abegondo"),
     AMES(15002, "Ames"),
     ARANGA(15003, "Aranga"),
@@ -334,23 +334,5 @@ public enum ConcelloId {
 
     public String getNome() {
         return nome;
-    }
-
-    public static String getNomePorCodigo(int codigo) {
-        for (ConcelloId estado : ConcelloId.values()) {
-            if (estado.codigo == codigo) {
-                return estado.nome;
-            }
-        }
-        throw new IllegalArgumentException("Código non válido: " + codigo);
-    }
-
-    public static int getCodigoPorNome(String nome) {
-        for (ConcelloId estado : ConcelloId.values()) {
-            if (estado.nome.equalsIgnoreCase(nome)) {
-                return estado.codigo;
-            }
-        }
-        throw new IllegalArgumentException("Nome non válido: " + nome);
     }
 }

@@ -1,12 +1,13 @@
 package meteogaliza;
 
-import java.util.Date;
+import meteogaliza.enums.EstadoUtils;
+import meteogaliza.enums.VariableMeteoroloxica;
 
 public class VariableFranxa {
     private VariableMeteoroloxica variableMeteoroloxica;
-    private EstadoMeteoroloxico valorManha;
-    private EstadoMeteoroloxico valorTarde;
-    private EstadoMeteoroloxico valorNoche;
+    private EstadoUtils valorManha;
+    private EstadoUtils valorTarde;
+    private EstadoUtils valorNoche;
 
     public VariableFranxa() {
     }
@@ -20,41 +21,40 @@ public class VariableFranxa {
         return this;
     }
 
-    public EstadoMeteoroloxico getValorManha() {
+    public EstadoUtils getValorManha() {
         return valorManha;
     }
 
-    public VariableFranxa setValorManha(EstadoMeteoroloxico valorManha) {
+    public VariableFranxa setValorManha(EstadoUtils valorManha) {
         this.valorManha = valorManha;
         return this;
     }
 
-    public EstadoMeteoroloxico getValorTarde() {
+    public EstadoUtils getValorTarde() {
         return valorTarde;
     }
 
-    public VariableFranxa setValorTarde(EstadoMeteoroloxico valorTarde) {
+    public VariableFranxa setValorTarde(EstadoUtils valorTarde) {
         this.valorTarde = valorTarde;
         return this;
     }
 
-    public EstadoMeteoroloxico getValorNoche() {
+    public EstadoUtils getValorNoche() {
         return valorNoche;
     }
 
-    public VariableFranxa setValorNoche(EstadoMeteoroloxico valorNoche) {
+    public VariableFranxa setValorNoche(EstadoUtils valorNoche) {
         this.valorNoche = valorNoche;
         return this;
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("VariableFranxa{");
-        sb.append("variableMeteoroloxica=").append(variableMeteoroloxica);
-        sb.append(", valorManha=").append(valorManha);
-        sb.append(", valorTarde=").append(valorTarde);
-        sb.append(", valorNoche=").append(valorNoche);
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder();
+        sb.append("\tVariable Meteoroloxica: ").append(variableMeteoroloxica.getNome()).append("\n");
+        sb.append("\t\tManha: ").append(valorManha.getNome()).append("\n");
+        sb.append("\t\tTarde: ").append(valorTarde.getNome()).append("\n");
+        sb.append("\t\tNoite: ").append(valorNoche.getNome()).append("\n");
         return sb.toString();
     }
 }

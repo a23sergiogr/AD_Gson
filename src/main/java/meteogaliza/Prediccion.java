@@ -1,5 +1,9 @@
 package meteogaliza;
 
+import meteogaliza.enums.ConcelloId;
+import meteogaliza.enums.EstadoCeo;
+import meteogaliza.enums.EstadoUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +29,16 @@ public class Prediccion {
         return this;
     }
 
+    public Prediccion setConcello(int concello) {
+        this.concello = new Concello(concello);
+        return this;
+    }
+
+    public Prediccion setConcello(String concello) {
+        this.concello = new Concello(EstadoUtils.getCodigoPorNome(ConcelloId.values(), concello));
+        return this;
+    }
+
     public List<PrediccionDia> getListaPredDiaConcello() {
         return listaPredDiaConcello;
     }
@@ -41,10 +55,10 @@ public class Prediccion {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Prediccion{");
-        sb.append("concello=").append(concello);
-        sb.append(", listaPredDiaConcello=").append(listaPredDiaConcello);
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder();
+        sb.append(concello).append("\n");
+        for (PrediccionDia prediccionDia : listaPredDiaConcello)
+            sb.append(prediccionDia).append("\n");
         return sb.toString();
     }
 }

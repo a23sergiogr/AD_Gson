@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 public class PrediccionDia {
-    private Date dataPredicion; // Guádala para que la ponga mejor como LocalDate
+    private LocalDateTime dataPredicion; // Guádala para que la ponga mejor como LocalDate
     private int nivelAviso;
     private int tMax;
     private int tMin;
@@ -17,7 +17,7 @@ public class PrediccionDia {
         listaVariableFranxa = new ArrayList<>();
     }
 
-    public PrediccionDia(Date dataPredicion, int nivelAviso, int tMax, int tMin, int uvMaz, List<VariableFranxa> listaVariableFranxa) {
+    public PrediccionDia(LocalDateTime dataPredicion, int nivelAviso, int tMax, int tMin, int uvMaz, List<VariableFranxa> listaVariableFranxa) {
         this.dataPredicion = dataPredicion;
         this.nivelAviso = nivelAviso;
         this.tMax = tMax;
@@ -26,11 +26,11 @@ public class PrediccionDia {
         this.listaVariableFranxa = listaVariableFranxa;
     }
 
-    public Date getDataPredicion() {
+    public LocalDateTime getDataPredicion() {
         return dataPredicion;
     }
 
-    public PrediccionDia setDataPredicion(Date dataPredicion) {
+    public PrediccionDia setDataPredicion(LocalDateTime dataPredicion) {
         this.dataPredicion = dataPredicion;
         return this;
     }
@@ -87,14 +87,15 @@ public class PrediccionDia {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("PrediccionDia{");
-        sb.append("dataPredicion='").append(dataPredicion).append('\'');
-        sb.append(", nivelAviso=").append(nivelAviso);
-        sb.append(", tMax=").append(tMax);
-        sb.append(", tMin=").append(tMin);
-        sb.append(", uvMaz=").append(uvMaz);
-        sb.append(", listaVariableFranxa=").append(listaVariableFranxa);
-        sb.append('}');
+        final StringBuilder sb = new StringBuilder();
+        sb.append("\tdata: '").append(dataPredicion).append("\n");
+        sb.append("\tnivelAviso: ").append(nivelAviso).append("\n");
+        sb.append("\ttMax: ").append(tMax).append("\n");
+        sb.append("\ttMin: ").append(tMin).append("\n");
+        sb.append("\tuvMaz: ").append(uvMaz).append("\n");
+        for (VariableFranxa variableFranxa : listaVariableFranxa)
+            sb.append(variableFranxa).append("\n");
+
         return sb.toString();
     }
 }

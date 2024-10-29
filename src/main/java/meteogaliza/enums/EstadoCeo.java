@@ -1,6 +1,6 @@
-package meteogaliza;
+package meteogaliza.enums;
 
-public enum EstadoMeteoroloxico {
+public enum EstadoCeo implements EstadoUtils {
     NON_DISPONHIBLE(-9999, "Non dispoñible"),
     DESPEXADO(101, "Despexado"),
     NUBES_ALTAS(102, "Nubes altas"),
@@ -48,7 +48,7 @@ public enum EstadoMeteoroloxico {
     private final int codigo;
     private final String nome;
 
-    EstadoMeteoroloxico(int codigo, String nome) {
+    EstadoCeo(int codigo, String nome) {
         this.codigo = codigo;
         this.nome = nome;
     }
@@ -56,26 +56,7 @@ public enum EstadoMeteoroloxico {
     public int getCodigo() {
         return codigo;
     }
-
     public String getNome() {
         return nome;
-    }
-
-    public static String getNomePorCodigo(int codigo) {
-        for (EstadoMeteoroloxico estado : EstadoMeteoroloxico.values()) {
-            if (estado.codigo == codigo) {
-                return estado.nome;
-            }
-        }
-        throw new IllegalArgumentException("Código non válido: " + codigo);
-    }
-
-    public static int getCodigoPorNome(String nome) {
-        for (EstadoMeteoroloxico estado : EstadoMeteoroloxico.values()) {
-            if (estado.nome.equalsIgnoreCase(nome)) {
-                return estado.codigo;
-            }
-        }
-        throw new IllegalArgumentException("Nome non válido: " + nome);
     }
 }
